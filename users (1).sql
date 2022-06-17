@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2022 at 05:32 PM
+-- Generation Time: Jun 17, 2022 at 02:55 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -43,7 +43,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `student_programme`, `study_year`) VALUES
-(1, 'Mlundi, Wanzita Raymound', NULL, '2019-04-07563', '$2y$10$s7nGNNzSUmuZXwC9Tpto7O1H6jv9owqia7ynExm1mJTwjqwVZqoLK', 1, 'BSC IN CEIT', 3),
+(1, 'Bernadette Massawe', NULL, '2020-04-06038', '$2y$10$s7nGNNzSUmuZXwC9Tpto7O1H6jv9owqia7ynExm1mJTwjqwVZqoLK', 1, '', 2),
 (2, 'Mwakatimbo, Elizabeth A.', NULL, '2019-04-08908', '$2y$10$/8gy4txhfdLWu4Bkgw6MVu3R6G9nT5a/4u0uH5BLpC7UkF.VGjlPO', 1, 'BSC IN CEIT', 3),
 (3, 'Reuben, Adam William', NULL, '2019-04-10982', '$2y$10$wBpfiMradIKOJMsQsCk.fOIoicfx4mIGayoQpgX25pIDEBfpjk.7m', 1, 'BSC IN CEIT', 3),
 (4, 'Mustapha, Saidi Seifdin', NULL, '2018-04-02441', '$2y$10$2QzBli2C9jf3dRiWO0E41OWx1hLLFIl5.eFPd3UNFDG.Scvt5GJ1i', 1, 'BSC IN CEIT', 3),
@@ -130,7 +130,6 @@ INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `stude
 (85, 'Masami, Rodney Paul', NULL, '2019-04-06109', '$2y$10$sW0/Nvz1t1fIIOk4DxB.Z.OwF1xuOkMc89psuxXkcqPocL2OIXgGa', 1, 'BSC IN CS', 3),
 (86, 'Michese, Deogratius Henry', NULL, '2019-04-07167', '$2y$10$y7WWUXZ1AJFI1AQD9Z5DOeM.qtGzOcIzxygFGZ/HgWNeqrhj/TQjq', 1, 'BSC IN CS', 3),
 (87, 'Liwaha, Jackson Stephen', NULL, '2019-04-04957', '$2y$10$Q0uJOr4n6tf6X3V.Rw7ob.9C/0/p/9dajUbqVD6c3LE5NoiYGFfmq', 1, 'BSC IN CS', 3),
-(88, 'Akaka, Thomas D.', NULL, '2019-04-00180', '$2y$10$L8c1zJEq.uyw0DsWksC6jeinzdDBBWNA6mzb86Qoa1M8kW4i54e8.', 1, 'BSC IN CS', 3),
 (89, 'Mniachi, Mariam Ally', NULL, '2019-04-07642', '$2y$10$cW0c4DQP5sIENipssxFzbuIdbwqEdNrxurVHH0nl.EyY0hlykN0rO', 1, 'BSC IN CS', 3),
 (90, 'Mahenge, Christina', NULL, '2019-04-05542', '$2y$10$9l0p1Xsv0NoOB5xxg7DKZemANTqNm4q6oum8tn.QKPPCI6Ux.Sx2C', 1, 'BSC IN CS', 3),
 (91, 'Mwemezi, Angela Jovin', NULL, '2019-04-09335', '$2y$10$h4sA6c3OfVWOM5E3KnqL5uPuri.oOy6xLql/TIIzBnb0nvO6nN07K', 1, 'BSC IN CS', 3),
@@ -172,7 +171,6 @@ INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `stude
 (127, 'THEOBALD SHADRACK MSEMO', NULL, '2020-04-07992', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (128, 'ASYA OTHMAN IBRAHIM', NULL, '2020-04-02408', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (129, 'INTISAAR ABDUL OTHMAN', NULL, '2020-04-10222', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
-(130, 'ABDULAZIZ MAHMOUD ABDI', NULL, '2020-04-00069', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (131, 'GOODLUCK YOHANA MADADI', NULL, '2020-04-05082', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (132, 'KWAYU	ELIBARIKI MMARI', NULL, '2020-04-07432', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (133, 'NYENESYA FRANK MWAKILASA', NULL, '2020-04-08685', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
@@ -195,7 +193,6 @@ INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `stude
 (150, 'JOSHUA	ALEX	MALLYA', NULL, '2020-04-05584', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CS', 2),
 (151, 'NAIF ABDALLA MBARAK', NULL, '2020-04-06334', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
 (152, 'ELISHA WYCLIF	MASSAWE', NULL, '2020-04-06056', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
-(153, 'ABDUL	MARTIN	SAID', NULL, '2020-04-13155', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
 (154, 'METHUSELA BONIPHACE', NULL, '2020-04-00809', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
 (155, 'SALMA	ANTHONY	JOSEPH', NULL, '2020-04-02870', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
 (156, 'JANET SEHEWA KAPINGO', NULL, '2020-04-03443', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN CEIT', 2),
@@ -221,13 +218,10 @@ INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `stude
 (176, 'BARAKA	B CHAGAVALIE', NULL, '2020-04-00982', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (177, 'PIUS VENANCE RWEGOSHORA', NULL, '2020-04-10819', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (178, 'YAHYA MASUDI', NULL, '2020-04-06087', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
-(179, 'BERNADETTE ALBERT MASSAWE', NULL, '2020-04-06038', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (180, 'ALEX GASTONE MKWIZU', NULL, '2020-04-07314', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (181, 'LULU YAHYA SHABAN', NULL, '2020-04-11367', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
-(182, 'ANGELITA C SWAI', NULL, '2020-04-11975', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (183, 'RACHEL P NJAU', NULL, '2020-04-13088', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (184, 'FARAJA	PETER', NULL, '2020-04-13655', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
-(185, 'ABUBAKARI RAMADHANI BUGARU	', NULL, '2020-04-00839', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (186, 'TONY NEMES RITE', NULL, '2020-04-10723', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (187, 'DOREEN 	EMMANUEL KATUMA', NULL, '2020-04-03601', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
 (188, 'CATHERINE GEORGE MASONGO', NULL, '2020-04-06013', '$2y$10$QthNTU60I2RDraUqISX8Su2o09WjsVHzeP1V310fn0/eVsLcIzZxW', 1, 'BSC IN BIT', 2),
@@ -338,7 +332,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `reg_no`, `password`, `role`, `stude
 (293, 'Dr. Yonah Andengelile', 'yona.andengelile@gmail.com', 'NULL', '$2y$10$gwUg/VySE24sx3HImDyoeuluXwXA7I2MwcMGE4wk7ekgGMMSf36ue', 3, NULL, NULL),
 (294, 'Dr. Honest C. Kimaro', 'honest_c@yahoo.com', 'NULL', '$2y$10$pUZguJhr11PyJVGwctsOBua01XSLHO2wKib5cmyge6jB7NkcpctKq', 3, NULL, NULL),
 (295, 'Dr. Ellen A Kalinga', 'ellenakchale@gmail.com', 'NULL', '$2y$10$TOLdAydMXsPrYG3NWMkMxuQRr6GMLUOzl9uZkoPsorQqb.CzA5yaG', 3, NULL, NULL),
-(296, 'Dr Mercy Mbise', 'mmbise@udsm.ac.tz', NULL, '$2y$10$KVCEZ5Y.OtYe2kGOS0klk.PftD/qtVOzbKilFZDGQJ9RxJeZ5qBAC', 3, NULL, NULL);
+(296, 'Dr Mercy Mbise', 'mmbise@udsm.ac.tz', NULL, '$2y$10$KVCEZ5Y.OtYe2kGOS0klk.PftD/qtVOzbKilFZDGQJ9RxJeZ5qBAC', 3, NULL, NULL),
+(297, 'Sarah Admin', 'admin@udsm.ac.tz', NULL, '$2y$10$D3IoVMqQdIMzj4lFhqnhHejGzSHJDhbVdLyFVjThywZFk4p8IvFwa', 4, NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -358,7 +353,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=297;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=298;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
